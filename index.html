@@ -9,13 +9,21 @@
    To give your hosted site global accounts, create a free Firebase project
    and paste its web config below (Help → Hosting explains each step).
    Leave it as null to keep accounts in each visitor's browser only.        */
-window.FPGAFORGE_FIREBASE = null;
+window.FPGAFORGE_FIREBASE = {
+  apiKey: "AIzaSyBg03zn0xwy7OonElN14WzxfqKadG54vEA",
+  authDomain: "fpgaforge-7da45.firebaseapp.com",
+  projectId: "fpgaforge-7da45",
+  storageBucket: "fpgaforge-7da45.firebasestorage.app",
+  messagingSenderId: "481346748897",
+  appId: "1:481346748897:web:729fe9cdf2557da946d2a0",
+  measurementId: "G-DPXJBE3NGB"
+};
 /* Example:
 window.FPGAFORGE_FIREBASE = {
   apiKey: "AIza...", authDomain: "your-app.firebaseapp.com",
   projectId: "your-app", appId: "1:123:web:abc"
 };                                                                         */
-window.FPGAFORGE_ADMIN_EMAILS = [];   /* e.g. ["you@gmail.com"] — these accounts get the admin panel */
+window.FPGAFORGE_ADMIN_EMAILS = ["fpgaforgedss@gmail.com"];   /* e.g. ["you@gmail.com"] — these accounts get the admin panel */
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
